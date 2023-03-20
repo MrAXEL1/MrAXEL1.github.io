@@ -1,0 +1,93 @@
+div .conten{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+div .baner{
+    background-color: #f9f9f9;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2%;
+    border-color: #3366cc;
+}
+
+div .left{
+    background-color: #003399;
+    width: 50%;
+    height: 74%;
+    margin-top: 2px;
+    float: left;
+}
+
+div .right{
+    background-color: #3399CC;
+    width: 50%;
+    height: 74%;
+    text-align: center;
+    float: left;
+    
+}
+
+div .down{
+    background-color: #cfd8dc;
+    height: 9%;
+    text-align: right;
+    float: inherit;
+}
+
+div .data{
+    margin: auto;
+    height: 390px;
+    width: 350px;
+    background-color: #99CCFF;
+    border-radius: 10px;
+}
+
+div .last{
+    margin: auto;
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height: 450px;
+}
+
+h3{
+    color: red;
+    text-align: center;
+}
+
+div .napis{
+    width: auto;
+    height: 5%;
+    text-align: center;
+    font-size: large;
+    color: red;
+    margin: 5px;
+}
+
+div .pierdoly{
+    width: auto;
+    height: 40%;
+}
+
+div .lewypodzial{
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+div .prawypodzial{
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+

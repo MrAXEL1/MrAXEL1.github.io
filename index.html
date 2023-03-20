@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+	<head>
+	
+		<meta charset="utf-8">
+		<title>Hurtownia wódy źródlanej</title>
+		<meta name="description" content="Opis zawartości strony dla wyszukiwarek">
+		<meta name="keywords" content="słowa, kluczowe, opisujące, zawartość">
+		<meta name="author" content="Axel Ernst">
+		
+		<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+    
+		<link rel="stylesheet" href="style.css">
+		<script src="skrypt.js"></script>
+    
+	</head>
+
+	<body>
+
+        <div class="conten">
+
+            <div class="baner">Źródlana wóda uśmiechu doda!!!</div>
+
+            <div class="left">
+
+                <div class="data">
+                    
+                    <div class="napis">Oferta handlowa</div>
+
+                    <div class="pierdoly">
+
+                            <div class="lewypodzial">
+<br>
+<form name='formularz'>
+    <BR>
+    <label for='typ'>Wybierz rodzaj wody: </label>
+    <select id='typ' name='typ'>
+    <option value='A'>Murzynianka 2 zl   </option>
+    <option value='B'>Żywiec zdrój 3 zl    </option>
+    <option value='C'>Cisowianka 4 zl</option>
+    <option value='D'>Woda z lodowca 5 zl   </option>
+    </select>
+    <BR>
+    
+    <label for='ilosc'>Ile butelek? </label>
+    <input type='number' id='ilosc' name='ilosc' min="0">
+    <BR>
+    <input type='button' value='Oblicz' onclick="oblicz()">
+    </form>
+    <BR>
+    
+                            <br>
+                            <br>
+                            Wynik:
+                            <p id='wynik'></p>
+
+                        </div>
+
+                        <div class="lewypodzial">
+                            <br>
+                            
+  
+  </select>
+                            
+
+                            
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+                <div class="last"></div>
+            </div>
+
+            
+
+            
+
+            <div class="right">
+                
+                <img src="501259_600x315.jpg">
+
+            </div>
+
+            
+
+            <div class="down">
+
+                "Świat jest zły i jeszcze mu się to ułatwia"
+                <br>
+                Kaiser Franz
+
+            </div>
+
+        </div>
+        
+        <script>
+            function oblicz(){
+            var wynik=0;
+            var typ=document.forms['formularz']['typ'].value;
+            var ilosc=document.forms['formularz']['ilosc'].value;
+            if(typ=='A')
+            {
+            wynik+=2*ilosc;
+            }
+            else if(typ=='B')
+            {
+            wynik+=3*ilosc;
+            }
+            else if(typ=='C')
+            {
+            wynik+=4*ilosc;
+            }
+            else if(typ=='D')
+            {
+            wynik+=5*ilosc;
+            }
+            
+            document.getElementById('wynik').innerHTML=wynik;
+            }
+            </script>
+
+	</body>
+	
+</html>
